@@ -1,3 +1,3 @@
-# C++
+# C
 ## Added Program/Algorithm Implementation
-BFS Algorithm 
+SJF CPU scheduling (Non – Preemptive) algorithm
