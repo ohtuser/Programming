@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+  cout << "Enter Number Of Node: ";
+  int node; cin >> node;
+  int adj_mat[node][node];
+  for(int i=0;i<node;i++){
+    for(int j=0;j<node;j++){
+      cin >> adj_mat[i][j];
+    }
+  }
+
+  cout << "Adjacency Matrix Is: " << endl;
+  for(int i=0;i<node;i++){
+    for(int j=0;j<node;j++){
+      cout << adj_mat[i][j] << " ";
+    }
+    cout << endl;
+  }
+}
